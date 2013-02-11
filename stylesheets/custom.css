@@ -60,6 +60,14 @@ article h1 {
 
 }
 
+.list-widget ul {
+    margin-left: 0;
+}
+
+.list-widget h3 {
+    padding-left: 5px;
+}
+
 .list-widget li {
     margin-bottom: 0;
 }
