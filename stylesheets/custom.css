@@ -48,3 +48,22 @@ article h1 {
 #masthead .nav > li > a:hover {
     text-decoration: underline;
 }
+
+.wrapper {
+    margin-bottom: 20px;
+}
+
+.list-widget h4 {
+    font-size: 16px;
+    line-height: 16px;
+    padding: 9px 5px;
+
+}
+
+.list-widget li {
+    margin-bottom: 0;
+}
+
+.list-widget h4:hover {
+    background-color: #f2f2f4;
+}
