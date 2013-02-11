@@ -135,19 +135,13 @@
 /* --------------------------- */
 /* - 1.1 Body typography - */
 body {
-  -ms-word-break: break-all;
-  word-break: break-all;
-  word-break: break-word;
-  -webkit-hyphens: auto;
-  -moz-hyphens: auto;
-  hyphens: auto;
+  text-align: justify;
   -webkit-font-smoothing: antialiased;
 }
 
 /* - 1.2 Headers - */
 h1, h2, h3, h4, h5 {
   color: #222222;
-  text-transform: uppercase;
   margin: 0;
 }
 h1 small, h2 small, h3 small, h4 small, h5 small {

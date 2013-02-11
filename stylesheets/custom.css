@@ -1,0 +1,29 @@
+/**
+ * All styles in this file added by Donal. I want to minimise changing the Bootstrap/Smart Box CSS files directly in
+ * order to facilitate upgrading to future versions thereof.
+ */
+.brand span {
+    display: block;
+}
+
+#masthead .brand .light {
+    font-size: 15px;
+    line-height: 15px;
+}
+
+#masthead .brand {
+    font-size: 54px;
+    font-weight: 900;
+    line-height: 54px;
+    padding: 10px 20px 10px;
+}
+
+article a {
+    color: #42576A;
+    text-decoration: underline;
+
+}
+
+article a:hover {
+    text-decoration: none;
+}
