@@ -828,7 +828,6 @@ body {
 /* - 5.3 Sidebar - */
 /* -- 5.3.1 General widget -- */
 .sidebar .sidebar-widget {
-  padding-bottom: 24px;
   margin-bottom: 24px;
   border-bottom: 1px solid #f2f2f4;
 }

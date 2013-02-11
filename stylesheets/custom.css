@@ -21,9 +21,30 @@
 article a {
     color: #42576A;
     text-decoration: underline;
-
 }
 
 article a:hover {
     text-decoration: none;
+}
+
+article h1 {
+    border-bottom: 1px solid #f2f2f4;
+}
+
+#footer span {
+    display: block;
+}
+
+#footer .email {
+    color: inherit;
+}
+
+#masthead .nav > li > a {
+    font-size: 20px;
+    font-weight: bold;
+    padding-top: 35px;
+}
+
+#masthead .nav > li > a:hover {
+    text-decoration: underline;
 }
