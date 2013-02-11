@@ -67,3 +67,15 @@ article h1 {
 .list-widget h4:hover {
     background-color: #f2f2f4;
 }
+
+article p + h2 {
+    margin-top: 20px;
+}
+
+.icon-twitter {
+    color: #00aced;
+}
+
+.icon-linkedin {
+    color: #007bb6;
+}
