@@ -70,11 +70,17 @@ article h1 {
 
 .list-widget li {
     margin-bottom: 0;
+    font-size: 18px;
 }
 
 .list-widget h4:hover {
     background-color: #f2f2f4;
 }
+
+.list-widget i {
+    padding-top: 3px;
+}
+
 
 article p + h2 {
     margin-top: 20px;
@@ -86,4 +92,18 @@ article p + h2 {
 
 .icon-linkedin {
     color: #007bb6;
+}
+
+.nav-pills.nav-stacked > li > a {
+    padding-left: 35px;
+}
+
+
+.nav-pills.nav-stacked > li > a > i {
+    position: absolute;
+    margin-left: -30px;
+}
+
+.nav-tabs > li > a, .nav-pills > li > a {
+    line-height: 18px
 }
