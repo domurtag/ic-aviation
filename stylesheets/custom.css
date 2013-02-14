@@ -120,4 +120,12 @@ article p + h2 {
     .sidebar {
         display: none !important;
     }
+
+    #masthead .nav > li > a {
+        padding-top: 9px;
+    }
+
+    div.nav-collapse {
+        height: auto !important;
+    }
 }
