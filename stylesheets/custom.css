@@ -40,7 +40,7 @@ article h1 {
 }
 
 #masthead .nav > li > a {
-    font-size: 24px;
+    font-size: 20px;
     font-weight: bold;
     padding-top: 40px;
     padding-bottom: 0;
@@ -49,38 +49,6 @@ article h1 {
 .wrapper {
     margin-bottom: 20px;
 }
-
-.list-widget {
-    text-align: left;
-}
-
-.list-widget h4 {
-    font-size: 16px;
-    line-height: 16px;
-    padding: 9px 5px;
-}
-
-.list-widget ul {
-    margin-left: 0;
-}
-
-.list-widget h3 {
-    padding-left: 5px;
-}
-
-.list-widget li {
-    margin-bottom: 0;
-    font-size: 18px;
-}
-
-.list-widget h4:hover {
-    background-color: #f2f2f4;
-}
-
-.list-widget i {
-    padding-top: 3px;
-}
-
 
 article p + h2 {
     margin-top: 20px;
@@ -94,29 +62,22 @@ article p + h2 {
     color: #007bb6;
 }
 
-.nav-pills.nav-stacked > li > a {
-    padding-left: 35px;
-}
-
-
-.nav-pills.nav-stacked > li > a > i {
-    position: absolute;
-    margin-left: -30px;
-}
-
-.nav-tabs > li > a, .nav-pills > li > a {
-    line-height: 18px
-}
-
 .v-spacer {
-    margin-top: 10px;
     margin-bottom: 10px;
 }
 
+.remove-bottom-margin {
+    margin-bottom: 0;
+}
+a.more-link {
+    font-weight: bold;
+}
+
+a.more-link:hover {
+    text-decoration: underline;
+}
+
 @media (max-width: 767px) {
-    .sidebar {
-        display: none !important;
-    }
 
     #masthead .nav > li > a {
         padding-top: 9px;
@@ -125,4 +86,8 @@ article p + h2 {
     div.nav-collapse {
         height: auto !important;
     }
+}
+
+.icon-twitter, .icon-linkedin {
+    font-size: 36px;
 }
