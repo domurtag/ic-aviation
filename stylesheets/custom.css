@@ -91,3 +91,8 @@ a.more-link:hover {
 .icon-twitter, .icon-linkedin {
     font-size: 36px;
 }
+
+.contact li {
+    font-size: 14px;
+    display: block;
+}
