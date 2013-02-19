@@ -77,14 +77,36 @@ a.more-link:hover {
     text-decoration: underline;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 979px) {
 
     #masthead .nav > li > a {
-        padding-top: 9px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+
     }
 
     div.nav-collapse {
         height: auto !important;
+    }
+}
+
+@media (max-width: 480px) {
+
+    #masthead .brand {
+        font-size: 46px;
+        font-weight: 900;
+        line-height: 46px;
+        padding-right: 0;
+    }
+
+    #masthead .brand .light {
+        font-size: 13px;
+        line-height: 13px;
+    }
+
+    #masthead .nav > li > a {
+        font-size: 16px;
+
     }
 }
 
@@ -95,4 +117,12 @@ a.more-link:hover {
 .contact li {
     font-size: 14px;
     display: block;
+}
+
+.navbar-inner .container-fluid {
+    padding: 0 20px;
+}
+
+ul.big.social-icons {
+    margin-top: 10px;
 }
