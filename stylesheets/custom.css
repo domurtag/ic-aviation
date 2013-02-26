@@ -126,3 +126,8 @@ a.more-link:hover {
 ul.big.social-icons {
     margin-top: 10px;
 }
+
+.read-more {
+    display: none;
+
+}
