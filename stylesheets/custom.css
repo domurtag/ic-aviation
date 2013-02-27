@@ -129,5 +129,17 @@ ul.big.social-icons {
 
 .read-more {
     display: none;
+}
 
+#menu {
+    padding-top: 15px;
+    padding-bottom: 0;
+}
+
+#footer .unstyled li {
+    margin-bottom: 0;
+}
+
+#image-menu li:last-child {
+    margin-bottom: 0;
 }
