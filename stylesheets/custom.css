@@ -136,10 +136,6 @@ ul.big.social-icons {
     padding-bottom: 0;
 }
 
-#footer .unstyled li {
-    margin-bottom: 0;
-}
-
-#image-menu li:last-child {
+#footer .unstyled li, #image-menu li:last-child, .contact li {
     margin-bottom: 0;
 }
