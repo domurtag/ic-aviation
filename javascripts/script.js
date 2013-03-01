@@ -1,9 +1,5 @@
 $(function() {
 
-    $('#image-menu').mouseover(function() {
-        $('.read-more').slideDown();
-    });
-
     // Hide address bar on IOs
     hideBar();
 
