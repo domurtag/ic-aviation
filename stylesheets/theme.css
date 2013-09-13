@@ -1861,7 +1861,7 @@ ul.inline li {
 /* ---------------- */
 /* - 9.1 Big screens - */
 /* - 9.2 Up to default desktop - */
-@media (max-width: 979px) {
+@media (max-width: 1119px) {
   /* -- 9.2.1 layout -- */
   .wrapper {
     width: 100%;

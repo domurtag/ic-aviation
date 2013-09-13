@@ -1069,6 +1069,17 @@
     margin: 0 0 0 -5px;
   }
 
+    .navbar .btn-navbar {
+        display: block;
+    }
+
+    .navbar-static .navbar-inner {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}
+
+@media (max-width: 1119px) {
   .nav-collapse {
     clear: both;
   }
@@ -1201,16 +1212,8 @@
     overflow: hidden;
     height: 0;
   }
-
-  .navbar .btn-navbar {
-    display: block;
-  }
-
-  .navbar-static .navbar-inner {
-    padding-left: 10px;
-    padding-right: 10px;
-  }
 }
+
 @media (min-width: 980px) {
   .nav-collapse.collapse {
     height: auto !important;
