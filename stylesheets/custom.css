@@ -133,3 +133,8 @@ ul.big.social-icons {
 #footer .unstyled li, #image-menu li:last-child, .contact li {
     margin-bottom: 0;
 }
+
+#conference-banner {
+    margin-bottom: 20px;
+    text-align: center;
+}
