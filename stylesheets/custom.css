@@ -139,19 +139,19 @@ ul.big.social-icons {
     text-align: center;
 }
 
-#conference-banner .span3 {
-    margin-bottom: 20px;
-    margin-top: 20px;
+@media (max-width: 1400px) {
+    #conference-banner .button-link {
+        display: none;
+    }
 }
 
 a.button-link {
     color: rgba(255,255,255,1);
     text-decoration: none;
     background-color: rgba(219,87,5,1);
-    padding: 4px 8px;
-    font-size: 20px;
+    padding: 10px 5px;
+    font-size: 15px;
     white-space: nowrap;
-
     border-radius: 8px;
     box-shadow: 0 9px 0 rgba(219,31,5,1), 0 9px 25px rgba(0,0,0,.7);
     text-align: center;
