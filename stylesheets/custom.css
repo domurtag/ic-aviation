@@ -139,7 +139,7 @@ ul.big.social-icons {
     text-align: center;
 }
 
-@media (max-width: 1400px) {
+@media (max-width: 1250px) {
     #conference-banner .button-link {
         display: none;
     }
@@ -162,4 +162,8 @@ a.button-link:hover {
     box-shadow: 0 3px 0 rgba(219,31,5,1), 0 3px 6px rgba(0,0,0,.9);
     position: relative;
     top: 6px;
+}
+
+#banner-link {
+    padding: 0 10px;
 }
