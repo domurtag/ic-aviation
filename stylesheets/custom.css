@@ -134,36 +134,6 @@ ul.big.social-icons {
     margin-bottom: 0;
 }
 
-#conference-banner {
-    margin-bottom: 20px;
-    text-align: center;
-}
-
-@media (max-width: 1250px) {
-    #conference-banner .button-link {
-        display: none;
-    }
-}
-
-a.button-link {
-    color: rgba(255,255,255,1);
-    text-decoration: none;
-    background-color: rgba(219,87,5,1);
-    padding: 10px 5px;
-    font-size: 15px;
-    white-space: nowrap;
-    border-radius: 8px;
-    box-shadow: 0 9px 0 rgba(219,31,5,1), 0 9px 25px rgba(0,0,0,.7);
-    text-align: center;
-    transition: all .1s ease;
-}
-
-a.button-link:hover {
-    box-shadow: 0 3px 0 rgba(219,31,5,1), 0 3px 6px rgba(0,0,0,.9);
-    position: relative;
-    top: 6px;
-}
-
 #banner-link {
     padding: 0 10px;
 }
